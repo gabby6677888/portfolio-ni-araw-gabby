@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	font-family: "poppins", sans-serif;
+	background: #FFD3D5;
+	color: #333;
+	scroll-behaviour: smooth;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 40px;
+	background: #FDACAC;
+	color: white;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 25px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-weight: 500;
+	transition: 0.3s;
+}
+
+nav a:hover{
+	opacity: 0.7s;
+}
+
+header{
+	text-align: center;
+	padding: 70px 20px;
+	background: #E49BA6;
+	color: white;
+}
+
+.profile-pic{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 4px solid white;
+	margin-bottom: 15px;
+}
+
+section{
+	max-width: 900px;
+	margin: 50px auto;
+	padding: 0 20px;
+}
+
+h2{
+	border-left: 4px solid #FFCDC9;
+	padding-left: 10px;
+	font-size: 1.8rem;
+}
+
+.project-card{
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	transition: transform 0.3s;
+}
+
+.project-card: hover {
+	transform: translateY (-5px);
+}
+
+.contact p{
+	font-size: 1.2rem;
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+	background: #FFDCDC;
+	margin-top: 40px;
+}
+
+nav ul{
+	display: none;
+}
+
+nav{
+	justify-content: center;
+}
+
+h1{
+	font-size: 1.8rem;
+}
+
+.projects{
+	grid-template-colums: 1fr;
+}
+}
